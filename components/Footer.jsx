@@ -132,7 +132,33 @@ export default function Footer() {
               </li>
             </ul>
 
-            {/* Repeat the pattern for other navigation links */}
+            <ul>
+              <li>
+                <Link href="/aboutus" title="about us">
+                 abous us
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/careers">
+                 careers
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/affiliates">
+                  affiliates
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/advertising">
+
+                   advertising
+
+                </Link>
+              </li>
+            </ul>
           </div>
 
           <footer>
