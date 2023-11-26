@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Footer from '../components/product-page/Footer';
-import Header from '../components/product-page/Header';
-import CatalogPreviews from '@/components/homepage/CatalogPreviews';
+import ProductPageHeader from '../components/product-page/ProductPageHeader';
+import CatalogPreviews from '../components/product-page/homepage/CatalogPreview';
 import ContentProduct from '../components/product-page/homepage/ContentProduct';
 
 
@@ -14,7 +14,7 @@ export default function ProductPage() {
         <link rel="icon" type="image/png" href="/images/favicon/monochrome-android-chrome.png"/>
       </Head>
 
-      <Header></Header>
+      <ProductPageHeader></ProductPageHeader>
 
       <main className="content container">
         <ContentProduct></ContentProduct>

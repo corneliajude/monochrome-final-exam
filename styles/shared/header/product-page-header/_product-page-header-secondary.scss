@@ -1,6 +1,5 @@
 .product-page-header-secondary {
   &-inner {
-    padding-left: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,7 +7,6 @@
     margin-bottom: 20px;
 
     @include media-breakpoint-up('lg') {
-      margin-top: 20px;
       margin-bottom: 50px;
       padding: 0 16px;
     }
@@ -16,19 +14,32 @@
     .header-controls {
       display: flex;
       align-items: center;
-      gap: 35px;
+      gap: 30px;
 
       .control-buttons > ul {
         display: flex;
         align-items: center;
-        gap: 24px;
-        font-size: 18px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 30px;
+        font-size: 20px;
+      }
+
+      .control-buttons > ul > li i[class*='fa-'] {
+        transition: color 0.2s ease-in-out scale 0.2s ease-in-out;
+      }
+
+      .control-buttons > ul > li i[class*='fa-']:hover {
+        color: $hover;
+        transform: scale(1.3);
       }
 
       form {
         display: inline-flex;
         align-items: center;
         width: 260px;
+        margin-left: 30px;
         border: 1px solid $brand-secondary;
         height: 40px;
         position: relative;
@@ -38,7 +49,7 @@
         border: none;
         background: none;
         position: absolute;
-        opacity: 0.8;
+        opacity: 0.5;
         top: 7.5px;
         left: 3px;
         font-size: 16px;
@@ -56,15 +67,11 @@
         &[placeholder='search' i] {
           font-family: 'Roboto', sans-serif;
           font-weight: 500;
-          font-size: 14px;
+          font-size: 16px;
           text-align: left;
           color: $brand-primary;
-          padding-left: 40px;
-          text-transform: initial;
-        }
-
-        &::placeholder {
-          color: $brand-primary;
+          opacity: 0.8;
+          padding-left: 50px;
         }
       }
     }
@@ -76,9 +83,27 @@
 
     ul {
       display: flex;
-      justify-content: flex-end;
-      gap: 30px;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex-direction: row;
+      gap: 20px;
       text-transform: uppercase;
+    }
+
+    a {
+      font-size: 18px;
+      font-weight: 300;
+      letter-spacing: 0.24px;
+    }
+
+    a:hover {
+      color: $hover;
+      transform: scale(1.3);
+    }
+
+    i {
+      font-size: 20px;
     }
   }
 }

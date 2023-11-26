@@ -9,13 +9,8 @@ export default function Footer() {
             <h2 className="d-lg-none">Let&apos;s connect</h2>
 
             <label htmlFor="newsletter" className="email-label">
-              <span className="d-lg-none">
-                Be the first to receive exclusives offers
-              </span>
-
-              <span className="d-none d-lg-block">
-                sign up for our newsletter
-              </span>
+              <span className="d-lg-none">Be the first to receive exclusives offers</span>
+              <span className="d-none d-lg-block">Sign up for our newsletter</span>
             </label>
 
             <input
@@ -23,8 +18,9 @@ export default function Footer() {
               name="newsletter"
               id="newsletter"
               className="email-input"
-              placeholder="Your Email"
-            ></input>
+              placeholder="Email"
+              required
+            />
 
             <button
               type="submit"
@@ -36,13 +32,15 @@ export default function Footer() {
             </button>
 
             <div className="GDPR-terms d-lg-none">
-              <input type="checkbox" name="GDPR" id="GDPR"></input>
+              <input type="checkbox" name="GDPR" id="GDPR" />
               <label htmlFor="GDPR">
-                I agree with{' '}
+                I agree with the {' '}
                 <span>
-                  <a href="https://google.com">Privacy Policy</a>
-                </span>{' '}
-                and I want to receive emails from Monochrome
+                  <a href="https://google.com" title="Privacy Policy" target="_blank" rel="noopener noreferrer">
+                    Privacy Policy
+                  </a>
+                </span> {' '}
+                and I want to receive emails from Monochrome.
               </label>
             </div>
           </form>
@@ -53,49 +51,49 @@ export default function Footer() {
             </header>
 
             <ul className="my-4">
-              <li>
-                <a
-                  href="https://google.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Follow us"
-                >
-                  <i className="fa-brands fa-facebook-square"></i>
-                </a>
-              </li>
+            <li>
+              <a
+                href="https://google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Follow us"
+              >
+                <i className="fa-brands fa-facebook-square"></i>
+              </a>
+            </li>
 
-              <li>
-                <a
-                  href="https://google.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Follow us"
-                >
-                  <i className="fa-brands fa-instagram"></i>
-                </a>
-              </li>
+            <li>
+              <a
+                href="https://google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Follow us"
+              >
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+            </li>
 
-              <li>
-                <a
-                  href="https://google.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Follow us"
-                >
-                  <i className="fa-brands fa-twitter"></i>
-                </a>
-              </li>
+            <li>
+              <a
+                href="https://google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Follow us"
+              >
+                <i className="fa-brands fa-twitter"></i>
+              </a>
+            </li>
 
-              <li>
-                <a
-                  href="https://google.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Follow us"
-                >
-                  <i className="fa-brands fa-youtube"></i>
-                </a>
-              </li>
+            <li>
+              <a
+                href="https://google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Follow us"
+              >
+                <i className="fa-brands fa-youtube"></i>
+              </a>
+            </li>
             </ul>
           </section>
         </section>
@@ -109,67 +107,69 @@ export default function Footer() {
             <ul>
               <li>
                 <Link href="/style" title="Style and Fit Advice">
-                  Style & Fit{' '}
-                  <span className="d-none d-lg-inline">Advice</span>
-
+                 Style & Fit <span className="d-none d-lg-inline">Advice</span>
                 </Link>
               </li>
 
               <li>
-                <a href="" title="FAQS">
-                  FAQS
-                </a>
+                <Link href="/faqs">
+                 FAQS
+                </Link>
               </li>
 
               <li>
-                <a href="" title="Delivery">
+                <Link href="/delivery">
                   Delivery
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="" title="Exchange and Returns">
-                  <span className="d-none d-lg-inline">Exchange</span> & Returns
-                </a>
+                <Link href="/exchange-returns">
+
+                    <span className="d-none d-lg-inline">Exchange &</span> Returns
+
+                </Link>
               </li>
             </ul>
 
             <ul>
               <li>
-                <a href="" title="About us">
-                  About us
-                </a>
+                <Link href="/aboutus" title="about us">
+                 abous us
+                </Link>
               </li>
 
               <li>
-                <a href="" title="Careers">
-                  Careers
-                </a>
+                <Link href="/careers">
+                 careers
+                </Link>
               </li>
 
               <li>
-                <a href="" title="Affilliates">
-                  Affiliates
-                </a>
+                <Link href="/affiliates">
+                  affiliates
+                </Link>
               </li>
 
               <li>
-                <a href="" title="Advertising">
-                  Advertising
-                </a>
+                <Link href="/advertising">
+
+                   advertising
+
+                </Link>
               </li>
             </ul>
           </div>
 
           <footer>
             <div className="terms d-lg-none">
-              <a href="https://google.com" title="terms and conditions">
-                terms and conditions
-              </a>
+              <Link href="/terms-and-conditions">
+               Terms and Conditions
+              </Link>
 
-              <a href="https://google.com" title="privacy and cookies">
-                privacy and cookies
-              </a>
+              <Link href="/privacy-cookies">
+                Privacy and Cookies
+              </Link>
             </div>
           </footer>
         </nav>
@@ -179,12 +179,12 @@ export default function Footer() {
             <li>
               <a href="tel:+440" title="Call us">
                 Call us <br />
-                +44 (0)10 123 789
+                +44 (0)10 2345 6789
               </a>
             </li>
 
             <li>
-              <a href="mailto:bla@jijoe.com" title="Email Us">
+              <a href="mailto:" title="Email Us">
                 Email Customer Care
               </a>
             </li>

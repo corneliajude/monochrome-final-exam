@@ -1,8 +1,7 @@
 .product-page-header-primary {
   background-color: $brand-primary;
   color: $white;
-  font-size: 19px;
-
+  font-size: 20px;
   &-mobile {
     padding: 10px 0;
     background-color: $brand-primary;
@@ -50,11 +49,10 @@
       &[placeholder='search' i] {
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
-        font-size: 12px;
-        text-align: left;
+        font-size: 16px;
+        text-align: center;
         color: $brand-secondary;
         text-transform: lowercase;
-        font-style: italic;
       }
     }
 
@@ -73,10 +71,10 @@
     justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
-    padding: 0;
+  }
 
-    @include media-breakpoint-up('lg') {
-      padding: 0 16px;
-    }
+  a:hover {
+    color: $hover;
+    transform: scale(1.3);
   }
 }

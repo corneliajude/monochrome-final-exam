@@ -1,7 +1,7 @@
 .header-primary {
   background-color: $brand-primary;
   color: $white;
-  font-size: 19px;
+  font-size: 20px;
 
   &-mobile {
     padding: 10px 0;
@@ -54,10 +54,6 @@
         text-align: center;
         color: $brand-secondary;
         text-transform: lowercase;
-      }
-
-      &:active{
-        border:none
       }
     }
 
