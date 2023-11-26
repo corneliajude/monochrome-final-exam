@@ -6,7 +6,7 @@ export default function Footer() {
       <section className="footer-inner container">
         <section className="footer-connect">
           <form className="footer-newsletter">
-            <h2 className="d-lg-none">Let's connect</h2>
+            <h2 className="d-lg-none">Let&apos;s connect</h2>
 
             <label htmlFor="newsletter" className="email-label">
               <span className="d-lg-none">Be the first to receive exclusives offers</span>
