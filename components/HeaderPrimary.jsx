@@ -1,64 +1,34 @@
-// import Link from 'next/link';
-// import { useRouter } from 'next/router';
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-
-// function render() {
-//   const router = useRouter();
-//   const homeLink = (
-//     <li>
-//       <Link href="/">
-//         <a title="Homepage">Homepage</a>
-//       </Link>
-//     </li>
-//   );
-//   {
-//     // router.homeLink && (
-//     // );
-//   }
-
-//   return (
-//     <li>
-//       <Link href="/">
-//         <a>BLA BLA</a>
-//       </Link>
-//     </li>
-//   );
-// }
-
-// root.render(router);
-
 export default function HeaderPrimary() {
   return (
     <nav className="header-primary">
-      <ul id="root" className="d-none d-lg-flex container">
+      <ul id="root" className="d-none d-lg-flex container p-2">
         <li>
-          <a href="https://x.ro" title="New Arrivals">
+          <a href="https://google.com" title="New Arrivals">
             New Arrivals
           </a>
         </li>
         <li>
-          <a href="https://x.ro" title="Brands">
+          <a href="https://google.com" title="Brands">
             Brands
           </a>
         </li>
         <li>
-          <a href="https://x.ro" title="Men's">
+          <a href="https://google.com" title="Men's">
             Men&apos;s
           </a>
         </li>
         <li>
-          <a href="https://x.ro" title="Women's">
+          <a href="https://google.com" title="Women's">
             Women&apos;s
           </a>
         </li>
         <li>
-          <a href="https://x.ro" title="Accesories">
+          <a href="https://google.com" title="Accesories">
             Accesories
           </a>
         </li>
         <li>
-          <a href="https://x.ro" title="Lookbook">
+          <a href="https://google.com" title="Lookbook">
             Lookbook
           </a>
         </li>
@@ -68,13 +38,13 @@ export default function HeaderPrimary() {
         <section className="header-primary-content container">
           <div className="search-form">
             <form action="">
-              <button type="submit" className="search-button">
-                <i className="fa-solid fa-magnifying-glass-dollar"></i>
+              <button type="submit" className="search-submit">
+                <i className="fa-solid fa-magnifying-glass"></i>
               </button>
 
               <input
                 type="text"
-                className="search-field"
+                className="search-box"
                 placeholder="Search"
                 title="Search"
               />

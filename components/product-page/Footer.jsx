@@ -40,7 +40,7 @@ export default function Footer() {
               <label htmlFor="GDPR">
                 I agree with{' '}
                 <span>
-                  <a href="https://x.ro">Privacy Policy</a>
+                  <a href="https://google.com">Privacy Policy</a>
                 </span>{' '}
                 and I want to receive emails from Monochrome
               </label>
@@ -55,18 +55,18 @@ export default function Footer() {
             <ul className="my-4">
               <li>
                 <a
-                  href="https://x.ro"
+                  href="https://google.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Follow us"
                 >
-                  <i className="fa-brands fa-facebook"></i>
+                  <i className="fa-brands fa-facebook-square"></i>
                 </a>
               </li>
 
               <li>
                 <a
-                  href="https://x.ro"
+                  href="https://google.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Follow us"
@@ -77,7 +77,7 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="https://x.ro"
+                  href="https://google.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Follow us"
@@ -88,7 +88,7 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="https://x.ro"
+                  href="https://google.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Follow us"
@@ -105,14 +105,13 @@ export default function Footer() {
             <h2>How can we help?</h2>
           </header>
 
-          <div className="website-nav">
+          <div className="footer-website-nav">
             <ul>
               <li>
-                <Link href="/style">
-                  <a title="Style and Fit Advice">
-                    Style & Fit{' '}
-                    <span className="d-none d-lg-inline">Advice</span>
-                  </a>
+                <Link href="/style" title="Style and Fit Advice">
+                  Style & Fit{' '}
+                  <span className="d-none d-lg-inline">Advice</span>
+
                 </Link>
               </li>
 
@@ -164,11 +163,11 @@ export default function Footer() {
 
           <footer>
             <div className="terms d-lg-none">
-              <a href="https://x.ro" title="terms and conditions">
+              <a href="https://google.com" title="terms and conditions">
                 terms and conditions
               </a>
 
-              <a href="https://x.ro" title="privacy and cookies">
+              <a href="https://google.com" title="privacy and cookies">
                 privacy and cookies
               </a>
             </div>
@@ -180,7 +179,7 @@ export default function Footer() {
             <li>
               <a href="tel:+440" title="Call us">
                 Call us <br />
-                +44 (0)10 2345 6789
+                +44 (0)10 123 789
               </a>
             </li>
 

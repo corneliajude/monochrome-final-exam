@@ -68,7 +68,7 @@ export default function ContentProduct() {
 
         <div className="product-connect">
           <header>
-            <a href="https://x.ro" target="_blank" rel="noopener noreferrer">
+            <a href="https://google.com" target="_blank" rel="noopener noreferrer">
               Shipping restrictions may apply
             </a>
           </header>
@@ -77,7 +77,7 @@ export default function ContentProduct() {
             <ul className="my-2">
               <li>
                 <a
-                  href="https://x.ro"
+                  href="https://google.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Contact us"
@@ -88,18 +88,18 @@ export default function ContentProduct() {
 
               <li>
                 <a
-                  href="https://x.ro"
+                  href="https://google.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Contact us"
                 >
-                  <i className="fa-brands fa-facebook"></i>
+                  <i className="fa-brands fa-facebook-square"></i>
                 </a>
               </li>
 
               <li>
                 <a
-                  href="https://x.ro"
+                  href="https://google.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Contact us"
@@ -110,7 +110,7 @@ export default function ContentProduct() {
 
               <li>
                 <a
-                  href="https://x.ro"
+                  href="https://google.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Contact us"
@@ -121,7 +121,7 @@ export default function ContentProduct() {
 
               <li>
                 <a
-                  href="https://x.ro"
+                  href="https://google.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Contact us"
@@ -139,14 +139,14 @@ export default function ContentProduct() {
 
             <li>
               {' '}
-              <a href="https://x.ro" target="_blank" rel="noopener noreferrer">
+              <a href="https://google.com" target="_blank" rel="noopener noreferrer">
                 Send us custom inquiry
               </a>
             </li>
 
             <li>
               {' '}
-              <a href="https://x.ro" target="_blank" rel="noopener noreferrer">
+              <a href="https://google.com" target="_blank" rel="noopener noreferrer">
                 Contact us <span>customer service</span>
               </a>
             </li>

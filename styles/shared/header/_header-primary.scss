@@ -29,7 +29,7 @@
       position: relative;
     }
 
-    .search-button {
+    .search-submit {
       border: none;
       background: none;
       position: absolute;
@@ -43,18 +43,21 @@
       }
     }
 
-    .search-field {
+    .search-box {
       border: none;
       background: none;
 
       &[placeholder='search' i] {
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
-        font-size: 12px;
-        text-align: left;
+        font-size: 16px;
+        text-align: center;
         color: $brand-secondary;
         text-transform: lowercase;
-        font-style: italic;
+      }
+
+      &:active{
+        border:none
       }
     }
 
@@ -73,5 +76,10 @@
     justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
+  }
+
+  a:hover {
+    color: $hover;
+    transform: scale(1.3);
   }
 }

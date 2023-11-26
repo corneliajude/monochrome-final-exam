@@ -8,18 +8,18 @@ export default function ProductPageHeaderSecondary() {
           <ul>
             <li>
               <a
-                href="https://x.ro"
+                href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Follow us"
               >
-                <i className="fa-brands fa-facebook"></i>
+                <i className="fa-brands fa-facebook-square"></i>
               </a>
             </li>
 
             <li>
               <a
-                href="https://x.ro"
+                href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Follow us"
@@ -30,7 +30,7 @@ export default function ProductPageHeaderSecondary() {
 
             <li>
               <a
-                href="https://x.ro"
+                href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Follow us"
@@ -41,7 +41,7 @@ export default function ProductPageHeaderSecondary() {
 
             <li>
               <a
-                href="https://x.ro"
+                href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Follow us"
@@ -51,27 +51,27 @@ export default function ProductPageHeaderSecondary() {
             </li>
 
             <li>
-              <a href="tel:+44 (0)10 2345 6789">Call us +44 (0)10 2345 6789</a>
+              <a href="tel:+44 (0)10 2345 6789">Call us +44 (0)10 123 789</a>
             </li>
           </ul>
         </section>
 
         <section className="mobile-title d-lg-none text-uppercase">
-          <Link href="/">
-            <a title="Monochrome">Monochrome</a>
+          <Link href="/" title="Monochrome">
+            Monochrome
           </Link>
         </section>
 
         <section className="header-controls">
           <div className="search-bar d-none d-lg-block">
             <form action="">
-              <button type="submit" className="search-button">
-                <i className="fa-solid fa-magnifying-glass-dollar"></i>
+              <button type="submit" className="search-submit">
+                <i className="fa-solid fa-magnifying-glass"></i>
               </button>
 
               <input
                 type="text"
-                className="search-field"
+                className="search-box"
                 placeholder="Search"
                 title="Search"
               />
@@ -82,29 +82,29 @@ export default function ProductPageHeaderSecondary() {
             <ul>
               <li>
                 <a
-                  href="https://x.ro"
+                  href="https://google.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="My Account"
                 >
-                  <i className="fa-solid fa-user-gear"></i>
+                  <i className="fa-solid fa-user"></i>
                 </a>
               </li>
 
               <li>
                 <a
-                  href="https://x.ro"
+                  href="https://google.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Wish List"
                 >
-                  <i className="fa-solid fa-heart-pulse"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </li>
 
               <li>
                 <a
-                  href="https://x.ro"
+                  href="https://google.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Cart"

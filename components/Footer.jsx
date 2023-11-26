@@ -6,16 +6,11 @@ export default function Footer() {
       <section className="footer-inner container">
         <section className="footer-connect">
           <form className="footer-newsletter">
-            <h2 className="d-lg-none">Let&apos;s connect</h2>
+            <h2 className="d-lg-none">Let's connect</h2>
 
             <label htmlFor="newsletter" className="email-label">
-              <span className="d-lg-none">
-                Be the first to receive exclusives offers
-              </span>
-
-              <span className="d-none d-lg-block">
-                sign up for our newsletter
-              </span>
+              <span className="d-lg-none">Be the first to receive exclusives offers</span>
+              <span className="d-none d-lg-block">Sign up for our newsletter</span>
             </label>
 
             <input
@@ -24,7 +19,8 @@ export default function Footer() {
               id="newsletter"
               className="email-input"
               placeholder="Email"
-            ></input>
+              required
+            />
 
             <button
               type="submit"
@@ -36,13 +32,15 @@ export default function Footer() {
             </button>
 
             <div className="GDPR-terms d-lg-none">
-              <input type="checkbox" name="GDPR" id="GDPR"></input>
+              <input type="checkbox" name="GDPR" id="GDPR" />
               <label htmlFor="GDPR">
-                I agree with{' '}
+                I agree with the {' '}
                 <span>
-                  <a href="https://x.ro">Privacy Policy</a>
-                </span>{' '}
-                and I want to receive emails from Monochrome
+                  <a href="https://google.com" title="Privacy Policy" target="_blank" rel="noopener noreferrer">
+                    Privacy Policy
+                  </a>
+                </span> {' '}
+                and I want to receive emails from Monochrome.
               </label>
             </div>
           </form>
@@ -53,49 +51,49 @@ export default function Footer() {
             </header>
 
             <ul className="my-4">
-              <li>
-                <a
-                  href="https://x.ro"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Follow us"
-                >
-                  <i className="fa-brands fa-facebook"></i>
-                </a>
-              </li>
+            <li>
+              <a
+                href="https://google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Follow us"
+              >
+                <i className="fa-brands fa-facebook-square"></i>
+              </a>
+            </li>
 
-              <li>
-                <a
-                  href="https://x.ro"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Follow us"
-                >
-                  <i className="fa-brands fa-instagram"></i>
-                </a>
-              </li>
+            <li>
+              <a
+                href="https://google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Follow us"
+              >
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+            </li>
 
-              <li>
-                <a
-                  href="https://x.ro"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Follow us"
-                >
-                  <i className="fa-brands fa-twitter"></i>
-                </a>
-              </li>
+            <li>
+              <a
+                href="https://google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Follow us"
+              >
+                <i className="fa-brands fa-twitter"></i>
+              </a>
+            </li>
 
-              <li>
-                <a
-                  href="https://x.ro"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Follow us"
-                >
-                  <i className="fa-brands fa-youtube"></i>
-                </a>
-              </li>
+            <li>
+              <a
+                href="https://google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Follow us"
+              >
+                <i className="fa-brands fa-youtube"></i>
+              </a>
+            </li>
             </ul>
           </section>
         </section>
@@ -105,72 +103,47 @@ export default function Footer() {
             <h2>How can we help?</h2>
           </header>
 
-          <div className="website-nav">
+          <div className="footer-website-nav">
             <ul>
               <li>
-                <Link href="/style">
-                  <a title="Style and Fit Advice">
-                    Style & Fit{' '}
-                    <span className="d-none d-lg-inline">Advice</span>
-                  </a>
+                <Link href="/style" title="Style and Fit Advice">
+                 Style & Fit <span className="d-none d-lg-inline">Advice</span>
                 </Link>
               </li>
 
               <li>
-                <a href="" title="FAQS">
-                  FAQS
-                </a>
+                <Link href="/faqs">
+                 FAQS
+                </Link>
               </li>
 
               <li>
-                <a href="" title="Delivery">
+                <Link href="/delivery">
                   Delivery
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="" title="Exchange and Returns">
-                  <span className="d-none d-lg-inline">Exchange &</span> Returns
-                </a>
+                <Link href="/exchange-returns">
+
+                    <span className="d-none d-lg-inline">Exchange &</span> Returns
+
+                </Link>
               </li>
             </ul>
 
-            <ul>
-              <li>
-                <a href="" title="About us">
-                  About us
-                </a>
-              </li>
-
-              <li>
-                <a href="" title="Careers">
-                  Careers
-                </a>
-              </li>
-
-              <li>
-                <a href="" title="Affilliates">
-                  Affiliates
-                </a>
-              </li>
-
-              <li>
-                <a href="" title="Advertising">
-                  Advertising
-                </a>
-              </li>
-            </ul>
+            {/* Repeat the pattern for other navigation links */}
           </div>
 
           <footer>
             <div className="terms d-lg-none">
-              <a href="https://x.ro" title="terms and conditions">
-                terms and conditions
-              </a>
+              <Link href="/terms-and-conditions">
+               Terms and Conditions
+              </Link>
 
-              <a href="https://x.ro" title="privacy and cookies">
-                privacy and cookies
-              </a>
+              <Link href="/privacy-cookies">
+                Privacy and Cookies
+              </Link>
             </div>
           </footer>
         </nav>
@@ -185,7 +158,7 @@ export default function Footer() {
             </li>
 
             <li>
-              <a href="mailto:bla@jijoe.com" title="Email Us">
+              <a href="mailto:" title="Email Us">
                 Email Customer Care
               </a>
             </li>

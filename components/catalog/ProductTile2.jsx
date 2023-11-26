@@ -1,29 +1,31 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function ProductTile2() {
   return (
     <article className="product-tile product-tile2">
       <div className="product-image">
-        <Link href="/product">
-          <a title="Monochrome" className="product-tile-image-container">
-            {/* <img
-              src="/images/products/product-tile-2.png"
-              alt=""
-            ></img> */}
-            <Image alt="New Watch 2" src="/images/products/product-tile-2.png"></Image>
-          </a>
+
+        <Link
+          href="/product"
+          title="Obsidian Horizon"
+          className="product-tile-image-container">
+
+          <img
+            src="/images/products/product-tile-2.png"
+            alt="Obsidian Horizon"
+          ></img>
+
         </Link>
 
         <span className="badge">
-          <a href="" title="Wish List">
-            <i className="fa-solid fa-heart"></i>
+          <a href="" title="WishList">
+            <i className="fa-solid fa-heart-circle-plus"></i>
           </a>
         </span>
       </div>
 
       <div className="product-title">
-        <span>Monochrome</span>
+        <span>Obsidian Horizon</span>
       </div>
 
       <div className="product-pricing">

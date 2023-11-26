@@ -5,37 +5,37 @@ export default function ProductPageHeaderPrimary() {
     <nav className="product-page-header-primary">
       <ul className="d-none d-lg-flex container">
         <li>
-          <Link href="/">
-            <a title="Homepage">Homepage</a>
+          <Link href="/" title="Homepage">
+            Homepage
           </Link>
         </li>
         <li>
-          <a href="https://x.ro" title="New Arrivals">
+          <a href="https://google.com" title="New Arrivals">
             New Arrivals
           </a>
         </li>
         <li>
-          <a href="https://x.ro" title="Brands">
+          <a href="https://google.com" title="Brands">
             Brands
           </a>
         </li>
         <li>
-          <a href="https://x.ro" title="Men's">
+          <a href="https://google.com" title="Men's">
             Men&apos;s
           </a>
         </li>
         <li>
-          <a href="https://x.ro" title="Women's">
+          <a href="https://google.com" title="Women's">
             Women&apos;s
           </a>
         </li>
         <li>
-          <a href="https://x.ro" title="Accesories">
+          <a href="https://google.com" title="Accesories">
             Accesories
           </a>
         </li>
         <li>
-          <a href="https://x.ro" title="Lookbook">
+          <a href="https://google.com" title="Lookbook">
             Lookbook
           </a>
         </li>
@@ -45,13 +45,13 @@ export default function ProductPageHeaderPrimary() {
         <section className="header-primary-content container">
           <div className="search-form">
             <form action="">
-              <button type="submit" className="search-button">
-                <i className="fa-solid fa-magnifying-glass-dollar"></i>
+              <button type="submit" className="search-submit">
+                <i className="fa-solid fa-magnifying-glass"></i>
               </button>
 
               <input
                 type="text"
-                className="search-field"
+                className="search-box"
                 placeholder="Search"
                 title="Search"
               />
