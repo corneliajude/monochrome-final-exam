@@ -2,45 +2,38 @@ export default function ContentProduct() {
   return (
     <section className="content-product">
       <aside className="product-images">
-        <div className="screen-image">
+        <div className="main-image">
           <img
-            src="images/product-page/3.png"
+            src="images/product-page/product-1.webp"
             alt="watch, wrist, metal, black, style"
           />
         </div>
 
         <div className="carousel-images">
-          <img src="images/product-page/6.png" alt="watch, black, metal" />
+          <img src="images/product-page/product-2.webp" alt="MIDNIGHT VANGUARD" />
 
-          <img src="images/product-page/7.png" alt="watch, black" />
+          <img src="images/product-page/product-3.webp" alt="MIDNIGHT VANGUARD" />
 
-          <img
-            src="images/product-page/jj-ying-dfjfNu3Q0Yc-unsplash.png"
-            alt="watch, black, metal, product-case"
-          />
+          <img src="images/product-page/product-2.webp" alt="MIDNIGHT VANGUARD" />
 
-          <img
-            src="images/product-page/6.png"
-            alt="watch, black, metal, leather"
-          />
+          <img src="images/product-page/product-3.webp" alt="MIDNIGHT VANGUARD" />
         </div>
       </aside>
       <div className="product-details">
         <header>
-          <h3>Monochrome Max Bill - $725</h3>
+          <h3>Midnight Vanguard &ndash; $550</h3>
         </header>
 
         <div className="product-description">
           <div>
             <h4>description</h4>
             <p>
-              Mr Max Bill was a true creative genius, carving out a career as a
-              painter, architect, sculptor and designer. As well as leaving
-              behind an expansive body of work, he was also an avid collector of
-              watches, and this Junghans chronoscope timepiece is dedicated to
-              his memory. Immaculately housed in a domed Plexiglass case and
-              finished with a handsome leather strap, it&apos;s a highly
-              technical piece in a stylish package.
+            Introducing our luxuriant black watch, a timeless blend of sophistication and style.
+            The sleek black stainless steel case complements the meticulously crafted black dial,
+            creating an elegant and versatile timepiece. With precision quartz movement, this watch
+            ensures accurate timekeeping while exuding an air of refined luxury. The sapphire crystal
+            glass adds durability and scratch resistance, while the black genuine leather strap provides
+            comfort and a touch of understated opulence.
             </p>
           </div>
 
@@ -59,7 +52,7 @@ export default function ContentProduct() {
             </button>
           </div>
           <div className="whishlist-btn">
-            <i className="fa-regular fa-heart"></i>
+            <i className="fa-solid fa-heart"></i>
             <button type="button" className="button" title="Whishlist">
               Whishlist
             </button>
@@ -135,7 +128,7 @@ export default function ContentProduct() {
 
         <div className="product-customer-service">
           <ul>
-            <li>Product code 668235</li>
+            <li>Product code 764876</li>
 
             <li>
               {' '}
