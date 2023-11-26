@@ -5,7 +5,7 @@ export default function ContentProduct() {
         <div className="main-image">
           <img
             src="images/product-page/product-1.webp"
-            alt="watch, wrist, metal, black, style"
+            alt="Midnight Vanguard"
           />
         </div>
 
