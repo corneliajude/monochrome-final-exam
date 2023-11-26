@@ -13,12 +13,12 @@ export default function HeaderPrimary() {
           </a>
         </li>
         <li>
-          <a href="https://google.com" title="Men's">
+          <a href="https://google.com" title="Mens">
             Men&apos;s
           </a>
         </li>
         <li>
-          <a href="https://google.com" title="Women's">
+          <a href="https://google.com" title="Womens">
             Women&apos;s
           </a>
         </li>
