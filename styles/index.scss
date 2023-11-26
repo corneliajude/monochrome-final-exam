@@ -1,0 +1,29 @@
+@import './fonts';
+
+// fontawesome
+@import './../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+@import './../node_modules/@fortawesome/fontawesome-free/scss/brands';
+@import './../node_modules/@fortawesome/fontawesome-free/scss/regular';
+@import './../node_modules/@fortawesome/fontawesome-free/scss/solid';
+
+// bootstrap
+// varianta de import cu alias din node_modules
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap-grid';
+@import '~bootstrap/scss/bootstrap-utilities';
+
+@import 'variables';
+@import 'reset';
+
+@import './shared/index';
+
+@import './homepage/index';
+@import './catalog/index';
+@import './product-page/index';
+@import 'style-advice/index';
+
+body {
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  color: $brand-primary;
+}
